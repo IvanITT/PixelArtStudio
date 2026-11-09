@@ -9,8 +9,17 @@ echo.
 
 where python >nul 2>nul
 if errorlevel 1 (
-  echo [ERROR] Python 3.10+ was not found on PATH.
+  echo [ERROR] Python 3.12+ was not found on PATH.
   echo Install Python from https://www.python.org/downloads/ and enable "Add python.exe to PATH".
+  pause
+  exit /b 1
+)
+
+python -c "import sys; sys.exit(0 if sys.version_info >= (3, 12) else 1)"
+if errorlevel 1 (
+  echo [ERROR] Python 3.12 or newer is required by the pinned backend dependencies.
+  python --version
+  echo Install a newer Python from https://www.python.org/downloads/ and enable "Add python.exe to PATH".
   pause
   exit /b 1
 )

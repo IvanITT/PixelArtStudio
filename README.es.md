@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img alt="Python 3.12+" src="https://img.shields.io/badge/Python-3.12%2B-3776AB?style=flat-square&logo=python&logoColor=white">
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-0.162-009688?style=flat-square&logo=fastapi&logoColor=white">
   <img alt="React 18" src="https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.6-3178C6?style=flat-square&logo=typescript&logoColor=white">
@@ -102,7 +102,7 @@ La imagen anterior la generó la propia aplicación: seis props procedurales con
 
 | Tecnología | Función |
 | --- | --- |
-| Python 3.10+ | Runtime |
+| Python 3.12+ | Runtime |
 | FastAPI 0.162 | API REST local |
 | Uvicorn 0.41 | Servidor ASGI |
 | Pillow 13 | Entrada/salida de imágenes |
@@ -161,7 +161,7 @@ PixelArtStudio.exe   lanzador listo para usar
 | Requisito | Mínimo | Probado con |
 | --- | --- | --- |
 | Sistema | Windows 10/11 (lanzador) | Windows 10 19045 |
-| Python | 3.10+ | 3.13.7 |
+| Python | 3.12+ | 3.13.7 |
 | Node.js + npm | 18+ | Node 22.19 / npm 10.2 |
 | RAM | 8 GB recomendados | 7,8 GB en el equipo de pruebas |
 | GPU | No necesaria | Solo CPU |
@@ -184,7 +184,7 @@ install.bat
 
 `install.bat` realiza toda la puesta en marcha:
 
-1. Comprueba Python y npm.
+1. Comprueba Python 3.12+ y npm.
 2. Crea `backend\.venv`.
 3. Instala las dependencias Python fijadas.
 4. Instala las dependencias del frontend.
